@@ -1,0 +1,24 @@
+{
+  "name": "alexa-songtext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "alexa",
+    "songtext"
+  ],
+  "author": "Dirk Ecker",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.0.1",
+    "chai": "^4.1.2"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "jsdom": "^11.6.2",
+    "lodash": "^4.17.5"
+  }
+}
