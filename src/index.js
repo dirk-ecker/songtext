@@ -31,7 +31,8 @@ const requestHandler = function(event, context, callback) {
 
 const handlers = {
     'LaunchRequest': function () {
-        this.emit('GetSongtext');
+      const output = 'Hallo und willkommen bei songtext. Songtext liest Dir den Songtext eines von Dir gesuchten Liedes vor. Sage z.B. einfach "Alexa frage songtext von enjoy".';
+      this.emit(':tellWithCard', output, this.t('SKILL_NAME'), output);
     },
 
     'GetSongtext': function() {
